@@ -1,0 +1,30 @@
+* {
+  font-size: $base-fontsize;
+  box-sizing: border-box;
+  margin: 0px;
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+}
+
+.web {
+  border: $borders-thickness solid $seconday-color;
+  //background-image: url('../images/background.jpg');
+  background-color: $base-color;
+}
+
+.mainpage {
+  padding: 5rem;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.title--big {
+  font-size: $titles-fontsize;
+  padding-bottom: 2rem;
+}
+
+.intro__text {
+  font-size: $text-fontsize;
+  text-align: center;
+}
