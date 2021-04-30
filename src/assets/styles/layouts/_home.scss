@@ -68,6 +68,17 @@
   }
 }
 
+.members {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  .members__header {
+    flex: 1 100%;
+  }
+}
+
 .photos {
   width: 100vw;
   height: 100vh;
