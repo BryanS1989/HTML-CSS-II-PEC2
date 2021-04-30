@@ -13,12 +13,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <script src="./assets/scripts/main.js"></script>
         <!-- do not remove this line! -->
-        <title>The Destroyers</title>
+        <title>The Destroyers: Photos</title>
     </head>
-    <body class="web">
+    <body class="web photos">
+
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-white fs-1" href="#">THE DESTROYERS</a>
+                <a class="navbar-brand text-white fs-1" href="./index.html">THE DESTROYERS</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -93,18 +94,18 @@
                                 aria-labelledby="navbarDropdownMenuLink"
                             >
                                 <li>
-                                    <a class="dropdown-item fs-3" href="./members.html#history"
+                                    <a class="dropdown-item fs-3" href="./more.html#history"
                                         >History</a
                                     >
                                 </li>
                                 <li>
-                                    <a class="dropdown-item fs-3" href="./members.html#tours">Tours</a>
+                                    <a class="dropdown-item fs-3" href="./more.html#tours">Tours</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item fs-3" href="./members.html#rrss">RRSS</a>
+                                    <a class="dropdown-item fs-3" href="./more.html#rrss">RRSS</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item fs-3" href="./members.html#merch"
+                                    <a class="dropdown-item fs-3" href="./more.html#merch"
                                         >Merchandising</a
                                     >
                                 </li>
@@ -118,29 +119,83 @@
             </div>
         </nav>
 
-        <main class="mainpage gridhome">
-            <h1 class="title--big gridhome__elem1">The Destroyers</h1>
+        <main class="mainpage">
+            <header>
+                <h1 class="title--big">Photos</h1>
+            </header>
 
-            <img
-                class="gridhome__elem2"
-                src="./assets/images/The_Destroyers.jpg"
-                alt="The Destroyers Live 2021"
-            />
-
-            <section class="intro  gridhome__elem3">
-                <p class="intro__text">Left behind erased from time</p>
-                <p class="intro__text">
-                    Ain't no decency in being boxed up alive
-                </p>
-                <p class="intro__text">
-                    Look around ain't no R.I.P. signs here
-                </p>
-                <p class="intro__text">
-                    <span class="intro__text--remark"
-                        >We don't rest in peace, we just disappear</span
-                    >
-                </p>
-            </section>
+            <div
+                id="detroyersPhotos"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#detroyersPhotos"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#detroyersPhotos"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#detroyersPhotos"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#detroyersPhotos"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/slide1.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/slide2.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/slide3.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/slide4.png" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#detroyersPhotos"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#detroyersPhotos"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </main>
     </body>
 </html>

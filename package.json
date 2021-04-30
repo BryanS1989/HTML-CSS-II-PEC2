@@ -11,7 +11,7 @@
     "build": "npm-run-all clean stylelint parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'",
     "stylelint": "stylelint src/**/*.scss",
-    "eslint" :  "eslint **/*.js"
+    "eslint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "stylelint-scss": "^3.19.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3"
   }
